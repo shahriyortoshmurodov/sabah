@@ -121,6 +121,11 @@ body{
         width: 100%;
         padding: 10px;
     }
+    .material1{
+        width: 500px;
+        height: 90%;
+    }
+    
     
     .h1m {
         font-size: 24px;
@@ -138,6 +143,10 @@ body{
 @media (max-width: 480px) {
     .h1m {
         font-size: 22px;
+    }
+    .material1{
+        width: 300px;
+        height: 90%;
     }
 
     .card2, .card3 {
