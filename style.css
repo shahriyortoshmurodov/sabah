@@ -124,7 +124,6 @@ body{
     }
     .material1{
         width: 80%;
-        height: 90%;
     }
     
     
@@ -147,7 +146,7 @@ body{
     }
     .material1{
         width: 80%;
-        height: 90%;
+    
     }
     .card2 {
         height: 400px;
@@ -171,52 +170,3 @@ body{
     }
 }
 
-.material1 {
-    width: 100%;
-    max-width: 400px; 
-    background: #fff;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: transform 0.3s ease-in-out;
-}
-
-.material1:hover {
-    transform: translateY(-5px);
-}
-
-/* Karta ichidagi rasm */
-.material1 img {
-    width: 100%;
-    height: auto;
-    max-height: 300px; /* Juda katta bo‘lishining oldini oladi */
-    object-fit: cover; /* Rasmingiz kartaga yaxshi joylashishini ta’minlaydi */
-    display: block;
-    border-bottom: 2px solid #ddd;
-}
-
-/* Karta kontenti */
-.material1 .content {
-    padding: 15px;
-    text-align: center;
-}
-
-.material1 h3 {
-    font-size: 20px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 8px;
-}
-
-.material1 p {
-    font-size: 16px;
-    color: #666;
-    line-height: 1.5;
-}
-
-
-@media (max-width: 480px) {
-    .material1 {
-        max-width: 90%; /* Mobil qurilmalarga moslashish */
-    }
-}
