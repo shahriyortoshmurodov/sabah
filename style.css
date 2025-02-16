@@ -50,8 +50,8 @@ body{
 }
 
 .material1 {
-    width: 500px;
-    height: 400px;
+    width: 80%;
+    height: 80%;
     object-fit: cover;
     object-position: center -200px;
     border-radius: 30px 30px 30px;
